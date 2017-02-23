@@ -37,7 +37,7 @@
 	<div id="container" class="centered">
 	<a href="/"><img id="logo" class="button" src="img/logo.png" /></a>
 		<div class="comics">
-			<img id="comic1" class="comic-img" border="8px" src="comics/page-003.jpg" title="" /><img id="comic2" class="comic-img" border="8px" src="comics/page-004.jpg" title="" />
+			<img id="comic1" class="comic-img" border="8px" src="comics/page-001.jpg" title="" /><img id="comic2" class="comic-img" border="8px" src="comics/chapter-001-cover.jpg" title="" />
 			<br>
 			<div id="altText" style="display: none;"><span>I&#39;d run away but I&#39;m a little valen-tied up</span></div>
 			<a id="first-link" href="javascript:first_comic();"><img id="first" src="img/first.png" onmouseover="this.src='img/first2.png'" onmouseout="this.src='img/first.png'" class="nav"></a>
@@ -90,6 +90,8 @@
 		<div id="links">
 			<a id="home-link" href="#"><img src="img/home.png" onmouseover="this.src='img/home2.png'" onmouseout="this.src='img/home.png'" class="button"></a>
 			<a id="about-link" href="#"><img src="img/about.png" onmouseover="this.src='img/about3.png'" onmouseout="this.src='img/about.png'" class="button"></a>
+			<a id="archive-link" href="#"><img src="img/archive.png" onmouseover="this.src='img/archive2.png'" onmouseout="this.src='img/archive.png'" class="button"></a>
+<br>
 			<a id="merlincomics-link" href="http://merlincomics.com"><img src="img/merlincomics.png" onmouseover="this.src='img/merlincomics2.png'" onmouseout="this.src='img/merlincomics.png'" class="button"></a>
 <br>
 			<a id="facebook-link" href="http://facebook.com/battleroadcomic"><img src="img/facebook.png" class="social-img"></a>
@@ -120,26 +122,26 @@
 						comic2.src = "comics/chapter-001-cover.jpg";
 					};
 					function prev_comic() {
-						if (1 > 0) {
+						if (-1 > 0) {
 														var comic1 = document.getElementById("comic1");
                                                 	var comic2 = document.getElementById("comic2");
-                                                	comic1.src = "comics/page-001.jpg";
-                                                	comic2.src = "comics/chapter-001-cover.jpg";
+                                                	comic1.src = "comics/";
+                                                	comic2.src = "comics/";
 						}
 					};
 					function next_comic() {
-                                                if (4 <= 4) {
+                                                if (2 <= 2) {
                                                                                                                 var comic1 = document.getElementById("comic1");
                                                         var comic2 = document.getElementById("comic2");
-                                                        comic1.src = "comics/page-003.jpg";
-                                                        comic2.src = "comics/page-004.jpg";
+                                                        comic1.src = "comics/page-001.jpg";
+                                                        comic2.src = "comics/chapter-001-cover.jpg";
                                                 }
                                         };
 					function last_comic() {
                                                 var comic1 = document.getElementById("comic1");
                                                 var comic2 = document.getElementById("comic2");
-                                                comic1.src = "comics/page-003.jpg";
-                                                comic2.src = "comics/page-004.jpg";
+                                                comic1.src = "comics/page-001.jpg";
+                                                comic2.src = "comics/chapter-001-cover.jpg";
 						                                        };
 				</script>
 
