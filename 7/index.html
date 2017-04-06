@@ -4,7 +4,7 @@
 	<title>Battle Road</title>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	<link rel="stylesheet" type="text/css"
-	      href="merlin2.css" />
+	      href="/merlin2.css" />
 	<style> 
 		@font-face {
 			font-family: vani;
@@ -35,18 +35,18 @@
 <body>
 	<div id="outer-container">
 	<div id="container" class="centered">
-	<a href="/"><img id="logo" class="button" src="img/logo.png" /></a>
+	<a href="/"><img id="logo" class="button" src="/img/logo.png" /></a>
 		<div class="comics">
-			<img id="comic1" class="comic-img" border="8px" src="comics/page-013.jpg" title="" /><img id="comic2" class="comic-img" border="8px" src="comics/page-014.jpg" title="" />
+			<img id="comic1" class="comic-img" border="8px" src="/comics/page-013.jpg" title="" /><img id="comic2" class="comic-img" border="8px" src="/comics/page-014.jpg" title="" />
 			<br>
 			<div id="altText" style="display: none;"><span>I&#39;d run away but I&#39;m a little valen-tied up</span></div>
-			<a id="first-link" href="/1/"><img id="first" src="img/first.png" onmouseover="this.src='img/first2.png'" onmouseout="this.src='img/first.png'" class="nav"></a>
+			<a id="first-link" href="/1/"><img id="first" src="/img/first.png" onmouseover="this.src='/img/first2.png'" onmouseout="this.src='/img/first.png'" class="nav"></a>
 			
-			<a id="back-link" href="/6/"><img id="prev" src="img/prev.png" onmouseover="this.src='img/prev2.png'" onmouseout="this.src='img/prev.png'"  class="nav"></a>
+			<a id="back-link" href="/6/"><img id="prev" src="/img/prev.png" onmouseover="this.src='/img/prev2.png'" onmouseout="this.src='/img/prev.png'"  class="nav"></a>
 			
-			<a id="next-link" href="javascript:next_comic();"><img id="next" src="img/next.png" onmouseover="this.src='img/next2.png'" onmouseout="this.src='img/next.png'" class="nav"></a> <!-- changed href just for testing -->
+			<a id="next-link" href="/"><img id="next" src="/img/next.png" onmouseover="this.src='/img/next2.png'" onmouseout="this.src='/img/next.png'" class="nav"></a> <!-- changed href just for testing -->
 		
-			<a id="last-link" href="javascript:last_comic();"><img id="last" src="img/latest.png" onmouseover="this.src='img/latest2.png'" onmouseout="this.src='img/latest.png'" class="nav"></a>
+			<a id="last-link" href="/"><img id="last" src="/img/latest.png" onmouseover="this.src='/img/latest2.png'" onmouseout="this.src='/img/latest.png'" class="nav"></a>
 		</div>
 
 
@@ -55,11 +55,11 @@
 			<table>
 			<tr>
 			<td>
-			<img class="about-img" src="img/about1.png" />
+			<img class="about-img" src="/img/about1.png" />
 			</td>
 			<td>
 			<div id="comictxt" class="about-txt">
-			<p><img class="about-header" src="img/the-comic.png" /><br>Battle Road is an action adventure comic about a world full of magical, battle-equipped musical instruments and a guy with a ‘fro named Fro who uses his keytar to take on Battle Road: The road that leads through all of the best venues and all of the biggest labels around. Only the toughest of the battle musicians make it through. The comic updates with two new pages every Thursday.</p>
+			<p><img class="about-header" src="/img/the-comic.png" /><br>Battle Road is an action adventure comic about a world full of magical, battle-equipped musical instruments and a guy with a ‘fro named Fro who uses his keytar to take on Battle Road: The road that leads through all of the best venues and all of the biggest labels around. Only the toughest of the battle musicians make it through. The comic updates with two new pages every Thursday.</p>
 			</div>
 			</td>
 			</tr>
@@ -69,13 +69,13 @@
 			<div id="about-artist">
 			<tr>
 			<td>
-			<img class="about-img" src="img/about2.png" />
+			<img class="about-img" src="/img/about2.png" />
 			</td>
 			<br>
 			<br>
 			<td>
 			<div id="artisttxt" class="about-txt">
-			<p><img class="about-header" src="img/the-artist.png" /><br>I’m Darren, a cartoonist from Louisville, Kentucky. I’ve drawn comic strips for my other website, Merlin Comics for nearly seven years, and I’ve been drawing for as long as I can remember. I’m heavily influenced by the work of Eiichiro Oda (One Piece) and Bryan Lee O’Malley (Scott Pilgrim) just to name two. I moonlight as a giant turtle monster that destroys small towns. You can find ways to get in touch with me under the “Contacts” link.</p>
+			<p><img class="about-header" src="/img/the-artist.png" /><br>I’m Darren, a cartoonist from Louisville, Kentucky. I’ve drawn comic strips for my other website, Merlin Comics for nearly seven years, and I’ve been drawing for as long as I can remember. I’m heavily influenced by the work of Eiichiro Oda (One Piece) and Bryan Lee O’Malley (Scott Pilgrim) just to name two. I moonlight as a giant turtle monster that destroys small towns. You can find ways to get in touch with me under the “Contacts” link.</p>
                         <p>Check out our Facebook and Tumblr page!</p>
 			</div>
 			</td>
@@ -88,12 +88,12 @@
 	</div>
 	<br><br><br>	
 		<div id="links">
-			<a id="home-link" href="#"><img src="img/home.png" onmouseover="this.src='img/home2.png'" onmouseout="this.src='img/home.png'" class="button"></a>
-			<a id="about-link" href="#"><img src="img/about.png" onmouseover="this.src='img/about3.png'" onmouseout="this.src='img/about.png'" class="button"></a>
-			<a id="merlincomics-link" href="http://merlincomics.com"><img src="img/merlincomics.png" onmouseover="this.src='img/merlincomics2.png'" onmouseout="this.src='img/merlincomics.png'" class="button"></a>
+			<a id="home-link" href="#"><img src="/img/home.png" onmouseover="this.src='/img/home2.png'" onmouseout="this.src='/img/home.png'" class="button"></a>
+			<a id="about-link" href="#"><img src="/img/about.png" onmouseover="this.src='/img/about3.png'" onmouseout="this.src='/img/about.png'" class="button"></a>
+			<a id="merlincomics-link" href="http://merlincomics.com"><img src="/img/merlincomics.png" onmouseover="this.src='/img/merlincomics2.png'" onmouseout="this.src='/img/merlincomics.png'" class="button"></a>
 <br>
-			<a id="facebook-link" href="http://facebook.com/battleroadcomic"><img src="img/facebook.png" class="social-img"></a>
-			<a id="insta-link" href="http://instagram.com/darrenvogtart"><img src="img/insta.png" class="social-img"></a>
+			<a id="facebook-link" href="http://facebook.com/battleroadcomic"><img src="/img/facebook.png" class="social-img"></a>
+			<a id="insta-link" href="http://instagram.com/darrenvogtart"><img src="/img/insta.png" class="social-img"></a>
 		</div>
 	
 				
@@ -116,30 +116,30 @@
 					function first_comic() {
 						var comic1 = document.getElementById("comic1");
 						var comic2 = document.getElementById("comic2");
-						comic1.src = "comics/page-001.jpg";
-						comic2.src = "comics/chapter-001-cover.jpg";
+						comic1.src = "/comics/page-001.jpg";
+						comic2.src = "/comics/chapter-001-cover.jpg";
 					};
 					function prev_comic() {
 						if (-1 > 0) {
 														var comic1 = document.getElementById("comic1");
                                                 	var comic2 = document.getElementById("comic2");
-                                                	comic1.src = "comics/";
-                                                	comic2.src = "comics/";
+                                                	comic1.src = "/comics/";
+                                                	comic2.src = "/comics/";
 						}
 					};
 					function next_comic() {
                                                 if (2 <= 2) {
                                                                                                                 var comic1 = document.getElementById("comic1");
                                                         var comic2 = document.getElementById("comic2");
-                                                        comic1.src = "comics/page-001.jpg";
-                                                        comic2.src = "comics/chapter-001-cover.jpg";
+                                                        comic1.src = "/comics/page-001.jpg";
+                                                        comic2.src = "/comics/chapter-001-cover.jpg";
                                                 }
                                         };
 					function last_comic() {
                                                 var comic1 = document.getElementById("comic1");
                                                 var comic2 = document.getElementById("comic2");
-                                                comic1.src = "comics/page-001.jpg";
-                                                comic2.src = "comics/chapter-001-cover.jpg";
+                                                comic1.src = "/comics/page-001.jpg";
+                                                comic2.src = "/comics/chapter-001-cover.jpg";
 						                                        };
 				</script>
 
